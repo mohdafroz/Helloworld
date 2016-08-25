@@ -15,7 +15,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 
 	protected static final Activity V = null;
-
+    // activity start
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
