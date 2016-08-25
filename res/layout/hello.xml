@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a89950"
+    android:orientation="vertical" >
+
+    <TextView
+          android:layout_width="match_parent" 
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:padding="5dip"
+          android:text="Email:"
+          android:textColor="#091a2e"
+          android:textStyle="bold"
+          android:textSize="27dp" />
+
+    <EditText
+          android:id="@+id/emailid_edttxt"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="10dip"
+          android:textColor="#000000"
+          android:textCursorDrawable="@null"
+          android:textSize="25dp"/>
+
+  <Button
+            android:id="@+id/emailid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Login"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25dp" />
+
+  <LinearLayout
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+            
+ <TextView
+            android:id="@+id/emailhome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip"
+            android:background="#febc90"
+            android:layout_marginRight="3dp"
+            android:text="Home"
+            android:textColor="#000000"
+            android:textSize="25dp" 
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+ 
+    <TextView
+            android:id="@+id/aboutview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dip"
+            android:background="#febc90"
+            android:textColor="#000000"
+            android:text="About"
+            android:textSize="25dp" 
+            android:textStyle="bold" />
+      </LinearLayout>
+      
+<LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" 
+            android:background="#a89950"
+            android:orientation="horizontal"
+            android:weightSum="2"  
+            android:layout_marginTop="5dp" >
+    
+     <Button
+            android:id="@+id/regstr" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"
+            android:textSize="25dp" 
+            android:textStyle="bold"
+            android:layout_weight="1"
+           />
+     
+  <Button   
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"
+            android:textSize="25dp" 
+            android:textStyle="bold"
+            android:layout_weight="1"
+           />
+ 
+          
+   </LinearLayout>
+ </LinearLayout>
