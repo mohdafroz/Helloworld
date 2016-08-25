@@ -16,6 +16,7 @@ public class MainActivity extends Activity {
 
 	protected static final Activity V = null;
     // activity start
+	//lnln
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
